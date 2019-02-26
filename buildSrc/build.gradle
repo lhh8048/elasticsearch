@@ -299,6 +299,8 @@ class VersionPropertiesLoader {
   }
 }
 
+apply plugin: "org.sonarqube"
+
 sonarqube {
     properties {
         property "sonar.projectName", "sonarTest"
