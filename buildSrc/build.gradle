@@ -313,6 +313,7 @@ sonarqube {
         //property "sonar.projectBaseDir", "."
     }
 }
+
 buildscript {
     repositories {
         maven {
